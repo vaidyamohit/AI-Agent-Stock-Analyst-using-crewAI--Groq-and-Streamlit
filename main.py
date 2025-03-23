@@ -8,7 +8,7 @@ import numpy as np
 import streamlit as st
 
 
-GROQ_API_KEY = "YOUR_GROQ_API_KEY"
+GROQ_API_KEY = "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"
 
 llm_llama70b = ChatGroq(model_name="llama3-70b-8192", groq_api_key=GROQ_API_KEY)
 
@@ -425,4 +425,4 @@ if analyze_button:
     st.markdown(result)
 
 st.markdown("---")
-st.markdown("Made by Vansh Kharidia")
+st.markdown("Made by Mohit")
